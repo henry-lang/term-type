@@ -131,7 +131,8 @@ int main(void) {
     srand(time(NULL));
     term_raw();
 
-    
+    game_refresh();
+    // while(term_get_key() != 'q') game_refresh();
 
     return 0;
 }
